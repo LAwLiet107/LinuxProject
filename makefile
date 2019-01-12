@@ -1,6 +1,7 @@
-barberproblem: barberproblem.c
-	gcc barberproblem.c -o barberproblem -lpthread
+bakerproblem: bakerproblem.c
+	gcc -o bakerproblem bakerproblem.c
 .PHONY: clean
 clean:
-	rm -f barberproblem
+	rm -f bakerproblem
 	make clean
+
